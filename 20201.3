@@ -1,0 +1,13 @@
+### QA
+1. uni-app具体是怎么做到跨平台的？
+* 通过mpvue的包装，支持vue -> wexin
+* 通过weex，支持vue -> native
+2. Native webview Render 与传统的H5 + Hybrid有区别？
+3. 条件编译
+* 条件编译指的是通过给代码加注释的方式，在构建阶段就进行条件分区，最终产出物会区分不同环境。
+4. 双线程模型
+5. mp-vue源码学习，大概实现思路是fork vue源码，改写runtime和compile层，支持小程序环境。 构建时需要特殊处理，支持AST -> wss format file
+
+
+### Refs
+https://uniapp.dcloud.io/select
